@@ -128,6 +128,13 @@ As part of this proposal, we will need to build a node library to make it easy t
 
 The tool would simply use an JS AST parser to build the parse tree and provide a simple mechanism to edit existing values or add new values.  This should be implemented as a node library which can be invoked programatically as an API or via the command line as a lightweight CLI.
 
+## TODO
+
+The following items need to be resolved as part of this CSPEC:
+
+- add a prototype for "editing" a complex JS file programatically
+- flesh out a good example of moving `tiapp.xml` to `appc.js`
+
 ## Timeline
 
 The goal of this proposal is to incorporate this file format into AppC CLI and Arrow in Q1 2016 and Titanium and Alloy if possible in 6.0 (Q1 2016).
