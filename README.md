@@ -99,6 +99,15 @@ module.exports = {
 };
 ```
 
+### Justification for JS vs JSON
+
+Why JS vs. JSON?  After experience with various formats (XML, JSON, YAML), I believe it's a good tradeoff to be able to well-document the configuration as well as provide dynamic runtime configuration.  Also, with JS, we can rather easily export the JS and turn the JS into JSON safely for portablity and transportability of the configuration.  This provides a nice tradeoff of the various issues.
+
+### Tooling Support
+
+As part of this proposal, we will need to build a node library to make it easy to "edit" the file by use with tools to preserve comments and the dynamic nature.
+
+The tool would simply use an JS AST parser to build the parse tree and provide a simple mechanism to edit existing values or add new values.  This should be implemented as a node library which can be invoked programatically as an API or via the command line as a lightweight CLI.
 
 ## Timeline
 
