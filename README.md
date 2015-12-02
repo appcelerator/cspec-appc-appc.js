@@ -49,16 +49,16 @@ Each product will define it's own named top-level key such as `hyperloop` for Hy
 
 The following are the initial set of pre-defined types:
 
-- app -- application (such as Titanium)
-- api -- api (such as Arrow)
-- analytics - analytics (such as Insights)
+- `app` - application (such as Titanium)
+- `api` - api (such as Arrow)
+- `analytics` - analytics (such as Insights)
 
 #### Groups
 
 The following are the initial set of pre-defined groups:
 
-- titanium
-- arrow
+- `titanium`
+- `arrow`
 
 The "group" indicates the product family grouping for the project.
 
