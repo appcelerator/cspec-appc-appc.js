@@ -45,6 +45,23 @@ The following are optional properties at the top-level exported object:
  
 Each product will define it's own named top-level key such as `hyperloop` for Hyperloop specific configuration or `titanium` for Titanium specific configuration.
 
+#### Types
+
+The following are the initial set of pre-defined types:
+
+- app -- application (such as Titanium)
+- api -- api (such as Arrow)
+- analytics - analytics (such as Insights)
+
+#### Groups
+
+The following are the initial set of pre-defined groups:
+
+- titanium
+- arrow
+
+The "group" indicates the product family grouping for the project.
+
 ### Example
 
 The following is an example of a Hyperloop enabled appc.js:
