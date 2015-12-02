@@ -45,6 +45,8 @@ The following are optional properties at the top-level exported object:
  
 Each product will define it's own named top-level key such as `hyperloop` for Hyperloop specific configuration or `titanium` for Titanium specific configuration.
 
+The content inside each product's configuration will be product dependent. Each product will be free to have any mandatory and optional configuration underneath the product's property key.
+
 #### Types
 
 The following are the initial set of pre-defined types:
