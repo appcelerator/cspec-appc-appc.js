@@ -12,7 +12,7 @@ The goals are to come up with a unified file which can describe the project in a
 
 ## Description
 
-The problem is we have multiple types of files that do this across different products or none at all.  Titanium uses tiapp.xml, Alloy uses alloy.json, Arrow uses appc.json, etc.  To intention is to come up with a universal file which can support any product and provide enough metadata such that the project can be easily understood by tools.
+The problem is we have multiple types of files that do this across different products or none at all.  Titanium uses tiapp.xml, Alloy uses config.json, Arrow uses appc.json, etc.  To intention is to come up with a universal file which can support any product and provide enough metadata such that the project can be easily understood by tools.
 
 ## Proposal
 
