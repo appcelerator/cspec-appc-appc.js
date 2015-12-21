@@ -1,4 +1,4 @@
-# CSPEC 2 - app.js unified metadata file
+# CSPEC 2 - appc.js unified metadata file
 
 This [CSPEC](https://github.com/appcelerator/cspec) is for standardizing around a unified metadata file named `appc.js`.
 
@@ -141,7 +141,8 @@ The goal of this proposal is to incorporate this file format into AppC CLI and A
 
 ## Status
 
-12-02-2016 - Initial Draft
+- 12-21-2015 - Minor Typo Fixes
+- 12-02-2015 - Initial Draft
 
 ## Legal Stuff
 
